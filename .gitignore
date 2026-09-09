@@ -1,0 +1,14 @@
+# État Terraform (contient des secrets)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Clés privées
+*.pem
+
+# Identifiants OpenStack
+*-openrc.sh
+
+# Archives
+*.zip
